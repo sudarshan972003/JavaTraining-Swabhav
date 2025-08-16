@@ -1,0 +1,124 @@
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  color: #333;
+}
+
+.container {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.container h1,
+.container h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.card {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #444;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;   
+  justify-content: center; 
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  background: #f0f0f0;
+  font-weight: bold;
+}
+
+.notice {
+  padding: 12px;
+  border-radius: 8px;
+  background: #eef;
+  margin-top: 15px;
+}
+
+.error {
+  padding: 12px;
+  border-radius: 8px;
+  background: #fee;
+  color: #900;
+  margin-top: 15px;
+}
+
+.quiz-option {
+    display: flex;
+    align-items: center;  
+    margin-bottom: 10px; 
+    gap: 8px;             
+}
+
+.quiz-option input[type="radio"] {
+    margin: 0;           
+}
